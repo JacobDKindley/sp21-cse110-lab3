@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>My Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="favicon-32x32.png">        
+    </head>
+
+    <body>
+        <header>
+            <h3>Select Journal</h3>
+            <nav>
+                <ul>
+                    <li><a href="#today">Today</a></li>
+                    <li><a href="#yesterday">Yesterday</a></li>
+                    <li><a href="#2days">2 Days Ago</a></li>
+                    <li><a href="#contact">Contact Writer</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="today">
+                <h1>Today</h1>
+                <p>
+                    I made a music video for the song from yesterday.
+                </p>
+                <video width="500" height="400" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    video not supported
+                </video>
+                <br>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Link to Original</a>
+                <hr>
+            </section>
+
+            <section id="yesterday">
+                <h1 id="yesterday">Yesterday</h1>
+                <span><p>
+                    I wrote and recorded a song yesterday. It's gonna be a hit.
+                </p></span>
+
+                <div><details>
+                    <summary><i>Lyrics</i></summary>
+                    <p>
+                        We're no strangers to love<br>
+                        You know the rules and so do I<br>
+                        A full commitment's what I'm thinking of<br>
+                        You wouldn't get this from any other guy<br><br>
+
+                        I just wanna tell you how I'm feeling<br>
+                        Gotta make you understand<br>
+                        <br>
+                        Never gonna give you up<br>
+                        Never gonna let you down<br>
+                        Never gonna run around and desert you<br>
+                        Never gonna make you cry<br>
+                        Never gonna say goodbye<br>
+                        Never gonna tell a lie and hurt you<br>
+                        <br>
+                        We've known each other for so long<br>
+                        Your heart's been aching but you're too shy to say it<br>
+                        Inside we both know what's been going on<br>
+                        We know the game and we're gonna play it<br>
+                        <br>
+                        And if you ask me how I'm feeling<br>
+                        Don't tell me you're too blind to see<br>
+                        <br>
+                        Never gonna give you up<br>
+                        Never gonna let you down<br>
+                        Never gonna run around and desert you<br>
+                        Never gonna make you cry<br>
+                        Never gonna say goodbye<br>
+                        Never gonna tell a lie and hurt you<br>
+                        Never gonna give you up<br>
+                        Never gonna let you down<br>
+                        Never gonna run around and desert you<br>
+                        Never gonna make you cry<br>
+                        Never gonna say goodbye<br>
+                        Never gonna tell a lie and hurt you<br>
+                        <br>
+                        (Ooh give you up)<br>
+                        (Ooh give you up)<br>
+                        (Ooh) Never gonna give, never gonna give<br>
+                        (Give you up)<br>
+                        (Ooh) Never gonna give, never gonna give<br>
+                        (Give you up)<br>
+                        <br>
+                        We've known each other for so long<br>
+                        Your heart's been aching but you're too shy to say it<br>
+                        Inside we both know what's been going on<br>
+                        We know the game and we're gonna play it<br>
+                        <br>
+                        I just wanna tell you how I'm feeling<br>
+                        Gotta make you understand<br>
+                        <br>
+                        Never gonna give you up<br>
+                        Never gonna let you down<br>
+                        Never gonna run around and desert you<br>
+                        Never gonna make you cry<br>
+                        Never gonna say goodbye<br>
+                        Never gonna tell a lie and hurt you<br>
+                        Never gonna give you up<br>
+                        Never gonna let you down<br>
+                        Never gonna run around and desert you<br>
+                        Never gonna make you cry<br>
+                        Never gonna say goodbye<br>
+                        Never gonna tell a lie and hurt you<br>
+                        Never gonna give you up<br>
+                        Never gonna let you down<br>
+                        Never gonna run around and desert you<br>
+                        Never gonna make you cry<br>
+                    </p>
+                </details></div>
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mp3">
+                    This doesn't suppord audio
+                </audio>
+                <hr>
+            </section>
+            
+            <section id="2days">
+                <h1 id="2days">2 Days Ago</h1>
+
+                <b>To do List:</b>
+                <ol>
+                    <li>Write a song.</li>
+                    <li>Record said song.</li>
+                    <li>Make a music video.</li>
+                </ol>
+                
+                <hr>
+            </section>
+            
+            <section id="contact">
+                <h1>Contact Writer</h1>
+                <form>
+                    <fieldset>
+                        <label for="name">Enter <strong>name:</strong></label>
+                        <input type="text" id="name"><br><br>
+                        Check why you are contacting the writer:<br>
+                        <input type="checkbox">
+                        To give you up.<br>
+                        <input type="checkbox">
+                        To let you down.<br>
+                        <input type="checkbox">
+                        To run around.<br>
+                        <input type="checkbox">
+                        To desert you.<br>
+                        <input type="checkbox">
+                        None of the above.<br><br>
+
+                        Enter current date:<br>
+                        <input type="date"><br><br>
+
+                        <hr>
+                        <h1><i>Info About You</i></h1>
+                        
+                        Choose your <em>favorite</em> song by the writer:<br>
+                        <input type="radio">
+                        Never Gonna Give You Up.<br>
+                        <input type="radio">
+                        Together Forever.<br>
+                        <input type="radio">
+                        Cry for Help.<br>
+                        <input type="radio">
+                        Hold Me In Your Arms.<br><br>
+
+                        Enter Favorite Food:<br>
+                        <input list="data">
+                        <datalist id="data">
+                            <option value="Pizza">
+                            <option value="Ramen">
+                            <option value="Burger">
+                            <option value="Burrito">
+                        </datalist><br><br>
+                        
+                        Favorite Color of the Rainbow:<br>
+                        <select name="sel" id="sel">
+                            <option value="op1">Red</option>
+                            <option value="op2">Orange</option>
+                            <option value="op2">Yellow</option>
+                            <option value="op2">Green</option>
+                            <option value="op2">Blue</option>
+                            <option value="op2">Purple</option>
+                        </select><br><br>
+
+                        <button type="button">Submit</button>
+                        
+
+                    </fieldset>
+                </form>
+                <hr>
+            </section>
+    
+        </main>
+            
+
+        <footer>
+            <h1>About Rick Astley</h1>
+            <img src="old.jpg" width="500"><br>
+            For more information regarding Rick Astley, refer to his <a href="https://en.wikipedia.org/wiki/Rick_Astley">wiki.</a>
+        </footer>
+    </body>
+</html>
