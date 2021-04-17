@@ -1,0 +1,66 @@
+/*Body contains general info for page*/
+body{
+    background-color: gainsboro;
+    font-family: 'Zen Dots', cursive;
+    color: black;
+    text-decoration: rgb(74, 114, 189);
+    text-align: left;
+}
+
+h1{
+    color: rgb(0,0,0);
+    margin-top: .5in;
+    margin-left: 20px;
+    padding: 2 0 0 0;
+    position: static;
+    font-family: 'Zen Dots', cursive;
+    
+}
+h3{
+    border-style: groove;
+    border-radius: 5px;
+    border-color: sienna;
+    border-width: 3px;
+    margin-top: 1cm;
+    margin-bottom: .5ex;
+    color: rgb(255,0,0);
+    position: sticky;
+}
+details{
+    border-style: inset;
+    color: hsl(0,0%,20%);
+    margin: 2vh 0 0 0;
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+}
+ul{
+    margin-top: .5em;
+    padding-left: 20px;
+    height: 80px;
+    width: 100px;
+    
+}
+p{
+    margin:auto
+}
+span{
+    display: none;
+}
+button:hover{
+    color: blueviolet;
+}
+button:active{
+    color: cadetblue;
+}
+form{
+    display: flex;
+}
+header{
+    display: grid;
+}
+footer{
+    @media screen {
+        color: #FFF;
+    }
+}

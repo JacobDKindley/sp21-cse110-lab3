@@ -4,6 +4,9 @@
         <title>My Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mystyle.css">
         <link rel="shortcut icon" type="image/png" href="favicon-32x32.png">        
     </head>
 
@@ -37,11 +40,16 @@
 
             <section id="yesterday">
                 <h1>Yesterday</h1>
-                <span>
+                <div>
                     I wrote and recorded a song yesterday. It's gonna be a hit.
-                </span>
+                </div>
 
-                <div><details>
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mp3">
+                    This doesn't suppord audio
+                </audio>
+
+                <span><details>
                     <summary><i>Lyrics</i></summary>
                     <p>
                         We're no strangers to love<br>
@@ -112,11 +120,7 @@
                         Never gonna run around and desert you<br>
                         Never gonna make you cry<br>
                     </p>
-                </details></div>
-                <audio controls>
-                    <source src="audio.mp3" type="audio/mp3">
-                    This doesn't suppord audio
-                </audio>
+                </details></span>
                 <hr>
             </section>
             
