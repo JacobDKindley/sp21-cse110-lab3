@@ -1,4 +1,7 @@
 /*Body contains general info for page*/
+*{
+    color: hotpink;
+}
 body{
     background-color: gainsboro;
     font-family: 'Zen Dots', cursive;
@@ -34,11 +37,11 @@ details{
     max-width: 500px;
     max-height: 500px;
 }
-ul{
-    margin-top: .5em;
-    padding-left: 20px;
-    height: 80px;
-    width: 100px;
+ul li{
+    margin-top: .1em;
+    padding-left: 10px;
+    height: 30px;
+    width: 200px;
     
 }
 p{
@@ -47,7 +50,7 @@ p{
 span{
     display: none;
 }
-button:hover{
+button:hover, a:hover{
     color: blueviolet;
 }
 button:active{
@@ -59,8 +62,30 @@ form{
 header{
     display: grid;
 }
+
 footer{
     @media screen {
         color: #FFF;
     }
+}
+
+.days{
+    color: orange;
+}
+
+#yesterday{
+    color: green;
+}
+section > a{
+    color:rgb(23, 76, 94);
+}
+
+img + p{
+    color: maroon;
+}
+p.override{
+    color: black;
+}
+h1 ~ img{
+    margin-left: 25px;
 }
