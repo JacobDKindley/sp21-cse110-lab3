@@ -5,28 +5,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="mystyle.css">
+        <style>
+            h1[id="contact"]{
+               color:chocolate;
+            }
+        </style>
+
         <link rel="shortcut icon" type="image/png" href="favicon-32x32.png">        
     </head>
 
     <body>
-        <header>
+        <header>            
             <h3>Select Journal</h3>
             <nav>
                 <ul>
-                    <li><a href="#today">Today</a></li>
-                    <li><a href="#yesterday">Yesterday</a></li>
-                    <li><a href="#2days">2 Days Ago</a></li>
-                    <li><a href="#contact">Contact Writer</a></li>
+                    <li><a href="#today" class="days">Today</a></li>
+                    <li><a href="#yesterday" class="days">Yesterday</a></li>
+                    <li><a href="#twodays" class="days">2 Days Ago</a></li>
+                    <li><a href="#contact" class="days">Contact Writer</a></li>
                 </ul>
             </nav>
         </header>
         
         <main>
-            <section id="today">
-                <h1>Today</h1>
-                <p>
+            <section>
+                <h1 id="today" style="color: blueviolet;">Today</h1>
+                <p class="override">
                     I made a music video for the song from yesterday.
                 </p>
                 <video width="500" height="400" controls>
@@ -38,8 +44,8 @@
                 <hr>
             </section>
 
-            <section id="yesterday">
-                <h1>Yesterday</h1>
+            <section>
+                <h1 id="yesterday">Yesterday</h1>
                 <div>
                     I wrote and recorded a song yesterday. It's gonna be a hit.
                 </div>
@@ -124,8 +130,8 @@
                 <hr>
             </section>
             
-            <section id="2days">
-                <h1>2 Days Ago</h1>
+            <section>
+                <h1 id="twodays">2 Days Ago</h1>
 
                 <b>To do List:</b>
                 <ol>
@@ -137,8 +143,8 @@
                 <hr>
             </section>
             
-            <section id="contact">
-                <h1>Contact Writer</h1>
+            <section>
+                <h1 id="contact">Contact Writer</h1>
                 <form>
                     <fieldset>
                         <label for="name">Enter <strong>name:</strong></label>
@@ -203,7 +209,11 @@
 
         <footer>
             <h1>About Rick Astley</h1>
-            <img src="old.jpg" width="500" alt="Image of Rick Astley"><br>
+            <img src="old.jpg" width="500" alt="Image of Rick Astley">
+            <p>
+                Image of Rick Astley
+            </p>
+            <br>
             For more information regarding Rick Astley, refer to his <a href="https://en.wikipedia.org/wiki/Rick_Astley">wiki.</a>
         </footer>
     </body>
